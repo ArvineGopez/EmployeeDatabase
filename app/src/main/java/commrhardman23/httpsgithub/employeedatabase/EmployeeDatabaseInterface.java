@@ -73,10 +73,10 @@ public class EmployeeDatabaseInterface extends AppCompatActivity {
                 employeePosition=edtxtPosition.getText().toString();
                 employeeNum=Integer.parseInt(edtxtEmployeeNum.getText().toString());
                 employeeWage=Double.parseDouble(edtxtWage.getText().toString());
-                employeeValues.put("NAME TEXT", employeeName);
-                employeeValues.put("POSITION TEXDT", employeePosition);
+                employeeValues.put("NAME", employeeName);
+                employeeValues.put("POSITION", employeePosition);
                 employeeValues.put("EMPLOYEE_NUM INTEGER",employeeNum);
-                employeeValues.put("WAGE REAL",employeeWage);
+                employeeValues.put("WAGE",employeeWage);
                 /**
                  * 1. Set each variable equal to the values from the EditTexts
                  * 2. put each value into the ContentValues variable
